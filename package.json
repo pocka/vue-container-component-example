@@ -1,0 +1,54 @@
+{
+  "name": "vue-container-component-example",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pocka/vue-container-component-example.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --config config/webpack/webpack.config.js --mode=development",
+    "build": "webpack --config config/webpack/webpack.config.js --mode=production",
+    "storybook": "start-storybook -p 9001 -c config/storybook"
+  },
+  "author": "pocka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pocka/vue-container-component-example/issues"
+  },
+  "homepage": "https://github.com/pocka/vue-container-component-example#readme",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.7",
+    "@storybook/addon-knobs": "^3.4.7",
+    "@storybook/vue": "^4.0.0-alpha.9",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.4",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "vue": "^2.5.16",
+    "vuex": "^3.0.1",
+    "vuex-connect": "^2.1.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "babel": {
+    "presets": [
+      "babel-preset-env"
+    ]
+  }
+}
