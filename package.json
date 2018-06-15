@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack/webpack.config.js --mode=development",
     "build": "webpack --config config/webpack/webpack.config.js --mode=production",
-    "storybook": "start-storybook -p 9001 -c config/storybook"
+    "storybook": "start-storybook -p 9001 -c config/storybook",
+    "build:storybook": "build-storybook -c config/storybook"
   },
   "author": "pocka",
   "license": "MIT",
